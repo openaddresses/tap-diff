@@ -1,44 +1,44 @@
 {
-  "name": "tap-diff",
-  "version": "0.1.1",
-  "description": "The most human-friendly TAP reporter",
-  "main": "./distributions/index.js",
-  "bin": {
-    "tap-diff": "./distributions/cli.js"
-  },
-  "scripts": {
-    "babel": "babel ./sources --out-dir ./distributions",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "axross <kou@axross.org> (http://axross.me/)",
-  "license": "MIT",
-  "dependencies": {
-    "chalk": "^1.1.1",
-    "diff": "^2.2.1",
-    "duplexer": "^0.1.1",
-    "figures": "^1.4.0",
-    "jsondiffpatch": "^0.1.41",
-    "pretty-ms": "^2.1.0",
-    "tap-parser": "^1.2.2",
-    "through2": "^2.0.0"
-  },
-  "devDependencies": {
-    "babel": "^5.8.34"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/axross/tap-diff.git"
-  },
-  "bugs": {
-    "url": "https://github.com/axross/tap-diff/issues"
-  },
-  "homepage": "https://github.com/axross/tap-diff#readme",
-  "keywords": [
-    "tap",
-    "tape",
-    "ava",
-    "test",
-    "reporter",
-    "diff"
-  ]
+    "name": "@openaddresses/tap-diff",
+    "version": "0.1.1",
+    "description": "The most human-friendly TAP reporter",
+    "main": "./distributions/index.js",
+    "bin": {
+        "tap-diff": "./distributions/cli.js"
+    },
+    "scripts": {
+        "babel": "babel ./sources --out-dir ./distributions",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "axross <kou@axross.org> (http://axross.me/)",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^1.1.1",
+        "diff": "^5.0.0",
+        "duplexer": "^0.1.1",
+        "figures": "^1.4.0",
+        "jsondiffpatch": "^0.1.41",
+        "pretty-ms": "^2.1.0",
+        "tap-parser": "^1.2.2",
+        "through2": "^2.0.0"
+    },
+    "devDependencies": {
+        "babel": "^5.8.34"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/axross/tap-diff.git"
+    },
+    "bugs": {
+        "url": "https://github.com/axross/tap-diff/issues"
+    },
+    "homepage": "https://github.com/axross/tap-diff#readme",
+    "keywords": [
+        "tap",
+        "tape",
+        "ava",
+        "test",
+        "reporter",
+        "diff"
+    ]
 }
