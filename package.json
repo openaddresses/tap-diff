@@ -1,14 +1,15 @@
 {
     "name": "@openaddresses/tap-diff",
-    "version": "0.1.1",
+    "type": "module",
+    "version": "1.0.0",
     "description": "The most human-friendly TAP reporter",
     "main": "./distributions/index.js",
     "bin": {
-        "tap-diff": "./distributions/cli.js"
+        "tap-diff": "./cli.js"
     },
     "scripts": {
-        "babel": "babel ./sources --out-dir ./distributions",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint cli.js lib/**.js lib/**/*.js"
     },
     "author": "axross <kou@axross.org> (http://axross.me/)",
     "license": "MIT",
@@ -16,23 +17,22 @@
         "chalk": "^1.1.1",
         "diff": "^5.0.0",
         "duplexer": "^0.1.1",
+        "eslint": "^8.23.1",
+        "eslint-plugin-node": "^11.1.0",
         "figures": "^1.4.0",
         "jsondiffpatch": "^0.1.41",
         "pretty-ms": "^2.1.0",
-        "tap-parser": "^1.2.2",
+        "tap-parser": "^11.0.0",
         "through2": "^2.0.0"
-    },
-    "devDependencies": {
-        "babel": "^5.8.34"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/axross/tap-diff.git"
+        "url": "git+https://github.com/openaddresses/tap-diff.git"
     },
     "bugs": {
-        "url": "https://github.com/axross/tap-diff/issues"
+        "url": "https://github.com/openaddresses/tap-diff/issues"
     },
-    "homepage": "https://github.com/axross/tap-diff#readme",
+    "homepage": "https://github.com/openaddresses/tap-diff#readme",
     "keywords": [
         "tap",
         "tape",
