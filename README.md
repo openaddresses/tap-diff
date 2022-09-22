@@ -13,7 +13,7 @@ The most human-friendly [TAP reporter](https://github.com/substack/tape#pretty-r
 You can use tap-diff in the same way as other [TAP reporters](https://github.com/substack/tape#pretty-reporters).
 
 ```
-npm install -g tap-diff
+npm install -g @openaddresses/tap-diff
 ```
 
 ```
@@ -33,7 +33,7 @@ Or use with `createStream()`:
 'use strict'
 
 const test = require('tape')
-const tapDiff = require('tap-diff')
+const tapDiff = require('@openaddresses/tap-diff')
 
 test.createStream()
   .pipe(tapDiff())
