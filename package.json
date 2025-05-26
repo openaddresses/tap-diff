@@ -1,7 +1,7 @@
 {
     "name": "@openaddresses/tap-diff",
     "type": "module",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "The most human-friendly TAP reporter",
     "main": "./lib/index.js",
     "bin": {
